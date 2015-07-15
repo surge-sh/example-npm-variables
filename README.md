@@ -22,7 +22,7 @@ You might even make the `main` filed the source directory:
 }
 ```
 
-The variable-based approach was inspired by [this tweet](https://twitter.com/juice49/status/621439134310223872) from @juice49.
+The variable-based approach was inspired by [this tweet](https://twitter.com/juice49/status/621439134310223872) from [@juice49](https://github.com/juice49).
 
 ## License
 
