@@ -1,0 +1,23 @@
+{
+  "name": "@surge/example-npm-variables",
+  "version": "0.1.0",
+  "description": "An example using npm package variables in an npm run script.",
+  "homepage": "http://example-npm-variables.surge.sh",
+  "repository": "https://github.com/surge-sh/example-npm-variables.git",
+  "license": "MIT",
+  "main": "src/",
+  "private": true,
+  "author": "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+    "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
+  ],
+  "keywords": ["surge", "surge.sh", "example", "codeship", "static"],
+  "devDependencies": {
+    "surge": "latest"
+  },
+  "scripts": {
+    "build": "echo \"If you’re using a static site generator or other compilation step, you could run it here!\"",
+    "deploy": "npm run build && surge --project $npm_package_main --domain $npm_package_homepage"
+  }
+}
